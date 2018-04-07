@@ -26,7 +26,7 @@ class Config
     protected $prefix = '';
 
     /**
-     * If true, rather than returning Void, an exception will be thrown
+     * If true, rather than returning FoolVoid, an exception will be thrown
      *
      * @var  boolean
      */
@@ -201,7 +201,7 @@ class Config
     /**
      * Enables exceptions when the value of a key can't be found
      *
-     * @param  boolean  $bool  True if it should throw exceptions if the value of a key can't be found, false if it should return Void without throwing exceptions
+     * @param  boolean  $bool  True if it should throw exceptions if the value of a key can't be found, false if it should return FoolVoid without throwing exceptions
      *
      * @return  \Foolz\Cache\Config  The current object
      */
@@ -215,7 +215,7 @@ class Config
     /**
      * Returns the throw configuration
      *
-     * @return  boolean  True if it should throw exceptions if the value of a key can't be found, false if it should return Void without throwing exceptions
+     * @return  boolean  True if it should throw exceptions if the value of a key can't be found, false if it should return FoolVoid without throwing exceptions
      */
     public function getThrow()
     {

@@ -29,11 +29,11 @@ abstract class Storage
     public abstract function getConfig();
 
     /**
-     * Returns the value or Void if not available
+     * Returns the value or FoolVoid if not available
      *
      * @param  string  $key  The cache key
      *
-     * @return  mixed  The value stored or \Foolz\Cache\Void
+     * @return  mixed  The value stored or \Foolz\Cache\FoolVoid
      */
     public abstract function get($key);
 
